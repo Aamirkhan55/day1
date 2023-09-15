@@ -15,7 +15,8 @@ class FirstDay extends StatelessWidget {
       title: 'First Day',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.lightGreen,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightGreen),
+        useMaterial3: true,
       ),
       home: const ColumnScreen(),
     );
